@@ -13,5 +13,8 @@ public class Calc {
 	public void div(int n1, int n2) {
 		System.out.println("Quotient is "+(n1/n2));
 	}
+	public void rem(int n1, int n2) {
+		System.out.println("Remainder is "+(n1%n2));
+	}
 
 }
